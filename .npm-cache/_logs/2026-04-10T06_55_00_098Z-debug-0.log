@@ -1,0 +1,18 @@
+0 verbose cli C:\Program Files\nodejs\node.exe C:\Users\quan.phamanh\AppData\Roaming\npm\node_modules\npm\bin\npm-cli.js
+1 info using npm@10.8.0
+2 info using node@v20.11.0
+3 silly config load:file:C:\Users\quan.phamanh\AppData\Roaming\npm\node_modules\npm\npmrc
+4 silly config load:file:E:\jenkins-basic\.npmrc
+5 silly config load:file:C:\Users\quan.phamanh\.npmrc
+6 silly config load:file:C:\Users\quan.phamanh\AppData\Roaming\npm\etc\npmrc
+7 verbose title npm run build
+8 verbose argv "run" "build"
+9 verbose logfile logs-max:10 dir:E:\jenkins-basic\.npm-cache\_logs\2026-04-10T06_55_00_098Z-
+10 verbose logfile E:\jenkins-basic\.npm-cache\_logs\2026-04-10T06_55_00_098Z-debug-0.log
+11 silly logfile done cleaning log files
+12 verbose cwd E:\jenkins-basic
+13 verbose os Windows_NT 10.0.26200
+14 verbose node v20.11.0
+15 verbose npm  v10.8.0
+16 verbose exit 0
+17 info ok

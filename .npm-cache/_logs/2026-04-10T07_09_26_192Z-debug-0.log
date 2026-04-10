@@ -1,0 +1,418 @@
+0 verbose cli /home/quanap/.nvm/versions/node/v20.20.2/bin/node /home/quanap/.nvm/versions/node/v20.20.2/bin/npm
+1 info using npm@10.8.2
+2 info using node@v20.20.2
+3 silly config load:file:/home/quanap/.nvm/versions/node/v20.20.2/lib/node_modules/npm/npmrc
+4 silly config load:file:/mnt/e/jenkins-basic/.npmrc
+5 silly config load:file:/home/quanap/.npmrc
+6 silly config load:file:/home/quanap/.nvm/versions/node/v20.20.2/etc/npmrc
+7 verbose title npm audit fix
+8 verbose argv "audit" "fix" "--force"
+9 verbose logfile logs-max:10 dir:/mnt/e/jenkins-basic/.npm-cache/_logs/2026-04-10T07_09_26_192Z-
+10 verbose logfile /mnt/e/jenkins-basic/.npm-cache/_logs/2026-04-10T07_09_26_192Z-debug-0.log
+11 warn using --force Recommended protections disabled.
+12 silly packumentCache heap:2197815296 maxSize:549453824 maxEntrySize:274726912
+13 silly logfile done cleaning log files
+14 silly audit bulk request {
+14 silly audit   '@next/env': [ '14.2.5' ],
+14 silly audit   '@next/swc-darwin-arm64': [ '14.2.5' ],
+14 silly audit   '@next/swc-darwin-x64': [ '14.2.5' ],
+14 silly audit   '@next/swc-linux-arm64-gnu': [ '14.2.5' ],
+14 silly audit   '@next/swc-linux-arm64-musl': [ '14.2.5' ],
+14 silly audit   '@next/swc-linux-x64-gnu': [ '14.2.5' ],
+14 silly audit   '@next/swc-linux-x64-musl': [ '14.2.5' ],
+14 silly audit   '@next/swc-win32-arm64-msvc': [ '14.2.5' ],
+14 silly audit   '@next/swc-win32-ia32-msvc': [ '14.2.5' ],
+14 silly audit   '@next/swc-win32-x64-msvc': [ '14.2.5' ],
+14 silly audit   '@swc/counter': [ '0.1.3' ],
+14 silly audit   '@swc/helpers': [ '0.5.5' ],
+14 silly audit   '@types/node': [ '20.14.10' ],
+14 silly audit   '@types/prop-types': [ '15.7.15' ],
+14 silly audit   '@types/react': [ '18.3.3' ],
+14 silly audit   '@types/react-dom': [ '18.3.0' ],
+14 silly audit   busboy: [ '1.6.0' ],
+14 silly audit   'caniuse-lite': [ '1.0.30001787' ],
+14 silly audit   'client-only': [ '0.0.1' ],
+14 silly audit   csstype: [ '3.2.3' ],
+14 silly audit   'graceful-fs': [ '4.2.11' ],
+14 silly audit   'js-tokens': [ '4.0.0' ],
+14 silly audit   'loose-envify': [ '1.4.0' ],
+14 silly audit   nanoid: [ '3.3.11' ],
+14 silly audit   next: [ '14.2.5' ],
+14 silly audit   picocolors: [ '1.1.1' ],
+14 silly audit   postcss: [ '8.4.31' ],
+14 silly audit   react: [ '18.2.0' ],
+14 silly audit   'react-dom': [ '18.2.0' ],
+14 silly audit   scheduler: [ '0.23.2' ],
+14 silly audit   'source-map-js': [ '1.2.1' ],
+14 silly audit   streamsearch: [ '1.1.0' ],
+14 silly audit   'styled-jsx': [ '5.1.1' ],
+14 silly audit   tslib: [ '2.8.1' ],
+14 silly audit   typescript: [ '5.5.4' ],
+14 silly audit   'undici-types': [ '5.26.5' ]
+14 silly audit }
+15 http fetch POST 200 https://registry.npmjs.org/-/npm/v1/security/advisories/bulk 376ms
+16 silly audit report {
+16 silly audit report   next: [
+16 silly audit report     {
+16 silly audit report       id: 1099638,
+16 silly audit report       url: 'https://github.com/advisories/GHSA-gp8f-8m3g-qvj9',
+16 silly audit report       title: 'Next.js Cache Poisoning',
+16 silly audit report       severity: 'high',
+16 silly audit report       vulnerable_versions: '>=14.0.0 <14.2.10',
+16 silly audit report       cwe: [Array],
+16 silly audit report       cvss: [Object]
+16 silly audit report     },
+16 silly audit report     {
+16 silly audit report       id: 1100421,
+16 silly audit report       url: 'https://github.com/advisories/GHSA-g77x-44xx-532m',
+16 silly audit report       title: 'Denial of Service condition in Next.js image optimization',
+16 silly audit report       severity: 'moderate',
+16 silly audit report       vulnerable_versions: '>=10.0.0 <14.2.7',
+16 silly audit report       cwe: [Array],
+16 silly audit report       cvss: [Object]
+16 silly audit report     },
+16 silly audit report     {
+16 silly audit report       id: 1101438,
+16 silly audit report       url: 'https://github.com/advisories/GHSA-7m27-7ghc-44w9',
+16 silly audit report       title: 'Next.js Allows a Denial of Service (DoS) with Server Actions',
+16 silly audit report       severity: 'moderate',
+16 silly audit report       vulnerable_versions: '>=14.0.0 <14.2.21',
+16 silly audit report       cwe: [Array],
+16 silly audit report       cvss: [Object]
+16 silly audit report     },
+16 silly audit report     {
+16 silly audit report       id: 1105461,
+16 silly audit report       url: 'https://github.com/advisories/GHSA-3h52-269p-cp9r',
+16 silly audit report       title: 'Information exposure in Next.js dev server due to lack of origin verification',
+16 silly audit report       severity: 'low',
+16 silly audit report       vulnerable_versions: '>=13.0 <14.2.30',
+16 silly audit report       cwe: [Array],
+16 silly audit report       cvss: [Object]
+16 silly audit report     },
+16 silly audit report     {
+16 silly audit report       id: 1111391,
+16 silly audit report       url: 'https://github.com/advisories/GHSA-mwv6-3258-q52c',
+16 silly audit report       title: 'Next Vulnerable to Denial of Service with Server Components',
+16 silly audit report       severity: 'high',
+16 silly audit report       vulnerable_versions: '>=13.3.0 <14.2.34',
+16 silly audit report       cwe: [Array],
+16 silly audit report       cvss: [Object]
+16 silly audit report     },
+16 silly audit report     {
+16 silly audit report       id: 1107226,
+16 silly audit report       url: 'https://github.com/advisories/GHSA-g5qg-72qw-gw5v',
+16 silly audit report       title: 'Next.js Affected by Cache Key Confusion for Image Optimization API Routes',
+16 silly audit report       severity: 'moderate',
+16 silly audit report       vulnerable_versions: '>=0.9.9 <14.2.31',
+16 silly audit report       cwe: [Array],
+16 silly audit report       cvss: [Object]
+16 silly audit report     },
+16 silly audit report     {
+16 silly audit report       id: 1107420,
+16 silly audit report       url: 'https://github.com/advisories/GHSA-7gfc-8cq8-jh5f',
+16 silly audit report       title: 'Next.js authorization bypass vulnerability',
+16 silly audit report       severity: 'high',
+16 silly audit report       vulnerable_versions: '>=9.5.5 <14.2.15',
+16 silly audit report       cwe: [Array],
+16 silly audit report       cvss: [Object]
+16 silly audit report     },
+16 silly audit report     {
+16 silly audit report       id: 1107512,
+16 silly audit report       url: 'https://github.com/advisories/GHSA-4342-x723-ch2f',
+16 silly audit report       title: 'Next.js Improper Middleware Redirect Handling Leads to SSRF',
+16 silly audit report       severity: 'moderate',
+16 silly audit report       vulnerable_versions: '>=0.9.9 <14.2.32',
+16 silly audit report       cwe: [Array],
+16 silly audit report       cvss: [Object]
+16 silly audit report     },
+16 silly audit report     {
+16 silly audit report       id: 1107513,
+16 silly audit report       url: 'https://github.com/advisories/GHSA-xv57-4mr9-wg8v',
+16 silly audit report       title: 'Next.js Content Injection Vulnerability for Image Optimization',
+16 silly audit report       severity: 'moderate',
+16 silly audit report       vulnerable_versions: '>=0.9.9 <14.2.31',
+16 silly audit report       cwe: [Array],
+16 silly audit report       cvss: [Object]
+16 silly audit report     },
+16 silly audit report     {
+16 silly audit report       id: 1112182,
+16 silly audit report       url: 'https://github.com/advisories/GHSA-5j59-xgg2-r9c4',
+16 silly audit report       title: 'Next has a Denial of Service with Server Components - Incomplete Fix Follow-Up',
+16 silly audit report       severity: 'high',
+16 silly audit report       vulnerable_versions: '>=13.3.1-canary.0 <14.2.35',
+16 silly audit report       cwe: [Array],
+16 silly audit report       cvss: [Object]
+16 silly audit report     },
+16 silly audit report     {
+16 silly audit report       id: 1108291,
+16 silly audit report       url: 'https://github.com/advisories/GHSA-qpjv-v59x-3qc4',
+16 silly audit report       title: 'Next.js Race Condition to Cache Poisoning',
+16 silly audit report       severity: 'low',
+16 silly audit report       vulnerable_versions: '>=0.9.9 <14.2.24',
+16 silly audit report       cwe: [Array],
+16 silly audit report       cvss: [Object]
+16 silly audit report     },
+16 silly audit report     {
+16 silly audit report       id: 1112593,
+16 silly audit report       url: 'https://github.com/advisories/GHSA-9g9p-9gw9-jx7f',
+16 silly audit report       title: 'Next.js self-hosted applications vulnerable to DoS via Image Optimizer remotePatterns configuration',
+16 silly audit report       severity: 'moderate',
+16 silly audit report       vulnerable_versions: '>=10.0.0 <15.5.10',
+16 silly audit report       cwe: [Array],
+16 silly audit report       cvss: [Object]
+16 silly audit report     },
+16 silly audit report     {
+16 silly audit report       id: 1112653,
+16 silly audit report       url: 'https://github.com/advisories/GHSA-h25m-26qc-wcjf',
+16 silly audit report       title: 'Next.js HTTP request deserialization can lead to DoS when using insecure React Server Components',
+16 silly audit report       severity: 'high',
+16 silly audit report       vulnerable_versions: '>=13.0.0 <15.0.8',
+16 silly audit report       cwe: [Array],
+16 silly audit report       cvss: [Object]
+16 silly audit report     },
+16 silly audit report     {
+16 silly audit report       id: 1113689,
+16 silly audit report       url: 'https://github.com/advisories/GHSA-f82v-jwr5-mffw',
+16 silly audit report       title: 'Authorization Bypass in Next.js Middleware',
+16 silly audit report       severity: 'critical',
+16 silly audit report       vulnerable_versions: '>=14.0.0 <14.2.25',
+16 silly audit report       cwe: [Array],
+16 silly audit report       cvss: [Object]
+16 silly audit report     },
+16 silly audit report     {
+16 silly audit report       id: 1114897,
+16 silly audit report       url: 'https://github.com/advisories/GHSA-ggv3-7p47-pfv8',
+16 silly audit report       title: 'Next.js: HTTP request smuggling in rewrites',
+16 silly audit report       severity: 'moderate',
+16 silly audit report       vulnerable_versions: '>=9.5.0 <15.5.13',
+16 silly audit report       cwe: [Array],
+16 silly audit report       cvss: [Object]
+16 silly audit report     },
+16 silly audit report     {
+16 silly audit report       id: 1114940,
+16 silly audit report       url: 'https://github.com/advisories/GHSA-3x4c-7xq6-9pq8',
+16 silly audit report       title: 'Next.js: Unbounded next/image disk cache growth can exhaust storage',
+16 silly audit report       severity: 'moderate',
+16 silly audit report       vulnerable_versions: '>=10.0.0 <15.5.14',
+16 silly audit report       cwe: [Array],
+16 silly audit report       cvss: [Object]
+16 silly audit report     }
+16 silly audit report   ]
+16 silly audit report }
+17 silly packumentCache corgi:https://registry.npmjs.org/next cache-miss
+18 http fetch GET 200 https://registry.npmjs.org/next 265ms (cache hit)
+19 silly packumentCache corgi:https://registry.npmjs.org/next set size:24633885 disposed:false
+20 warn audit Updating next to 14.2.35, which is outside your stated dependency range.
+21 silly idealTree buildDeps
+22 silly fetch manifest next@14.2.35
+23 silly packumentCache full:https://registry.npmjs.org/next cache-miss
+24 http fetch GET 200 https://registry.npmjs.org/next 1922ms (cache revalidated)
+25 silly packumentCache full:https://registry.npmjs.org/next set size:30016099 disposed:false
+26 silly fetch manifest @opentelemetry/api@^1.1.0
+27 silly packumentCache full:https://registry.npmjs.org/@opentelemetry%2fapi cache-miss
+28 http fetch GET 200 https://registry.npmjs.org/@opentelemetry%2fapi 133ms (cache miss)
+29 silly packumentCache full:https://registry.npmjs.org/@opentelemetry%2fapi set size:undefined disposed:false
+30 silly fetch manifest @playwright/test@^1.41.2
+31 silly packumentCache full:https://registry.npmjs.org/@playwright%2ftest cache-miss
+32 http fetch GET 200 https://registry.npmjs.org/@playwright%2ftest 556ms (cache miss)
+33 silly packumentCache full:https://registry.npmjs.org/@playwright%2ftest set size:undefined disposed:false
+34 silly fetch manifest react@18.2.0
+35 silly packumentCache full:https://registry.npmjs.org/react cache-miss
+36 http fetch GET 200 https://registry.npmjs.org/react 176ms (cache revalidated)
+37 silly packumentCache full:https://registry.npmjs.org/react set size:6598084 disposed:false
+38 silly fetch manifest react-dom@18.2.0
+39 silly packumentCache full:https://registry.npmjs.org/react-dom cache-miss
+40 http fetch GET 200 https://registry.npmjs.org/react-dom 192ms (cache revalidated)
+41 silly packumentCache full:https://registry.npmjs.org/react-dom set size:8778661 disposed:false
+42 silly fetch manifest sass@^1.3.0
+43 silly packumentCache full:https://registry.npmjs.org/sass cache-miss
+44 http fetch GET 200 https://registry.npmjs.org/sass 106ms (cache miss)
+45 silly packumentCache full:https://registry.npmjs.org/sass set size:undefined disposed:false
+46 silly placeDep ROOT next@14.2.35 REPLACE for: jenkins-basic-demo@0.1.0 want: 14.2.35
+47 silly fetch manifest @next/env@14.2.35
+48 silly packumentCache full:https://registry.npmjs.org/@next%2fenv cache-miss
+49 silly fetch manifest @next/swc-darwin-x64@14.2.33
+50 silly packumentCache full:https://registry.npmjs.org/@next%2fswc-darwin-x64 cache-miss
+51 silly fetch manifest @next/swc-darwin-arm64@14.2.33
+52 silly packumentCache full:https://registry.npmjs.org/@next%2fswc-darwin-arm64 cache-miss
+53 silly fetch manifest @next/swc-linux-x64-gnu@14.2.33
+54 silly packumentCache full:https://registry.npmjs.org/@next%2fswc-linux-x64-gnu cache-miss
+55 silly fetch manifest @next/swc-linux-x64-musl@14.2.33
+56 silly packumentCache full:https://registry.npmjs.org/@next%2fswc-linux-x64-musl cache-miss
+57 silly fetch manifest @next/swc-win32-x64-msvc@14.2.33
+58 silly packumentCache full:https://registry.npmjs.org/@next%2fswc-win32-x64-msvc cache-miss
+59 silly fetch manifest @next/swc-linux-arm64-gnu@14.2.33
+60 silly packumentCache full:https://registry.npmjs.org/@next%2fswc-linux-arm64-gnu cache-miss
+61 http fetch GET 200 https://registry.npmjs.org/@next%2fenv 215ms (cache revalidated)
+62 silly packumentCache full:https://registry.npmjs.org/@next%2fenv set size:7143042 disposed:false
+63 silly fetch manifest @next/swc-win32-ia32-msvc@14.2.33
+64 silly packumentCache full:https://registry.npmjs.org/@next%2fswc-win32-ia32-msvc cache-miss
+65 http fetch GET 200 https://registry.npmjs.org/@next%2fswc-linux-x64-gnu 373ms (cache revalidated)
+66 silly packumentCache full:https://registry.npmjs.org/@next%2fswc-linux-x64-gnu set size:5215007 disposed:false
+67 silly fetch manifest @next/swc-linux-arm64-musl@14.2.33
+68 silly packumentCache full:https://registry.npmjs.org/@next%2fswc-linux-arm64-musl cache-miss
+69 http fetch GET 200 https://registry.npmjs.org/@next%2fswc-darwin-arm64 404ms (cache revalidated)
+70 silly packumentCache full:https://registry.npmjs.org/@next%2fswc-darwin-arm64 set size:5166940 disposed:false
+71 silly fetch manifest @next/swc-win32-arm64-msvc@14.2.33
+72 silly packumentCache full:https://registry.npmjs.org/@next%2fswc-win32-arm64-msvc cache-miss
+73 http fetch GET 200 https://registry.npmjs.org/@next%2fswc-darwin-x64 435ms (cache revalidated)
+74 silly packumentCache full:https://registry.npmjs.org/@next%2fswc-darwin-x64 set size:5110958 disposed:false
+75 http fetch GET 200 https://registry.npmjs.org/@next%2fswc-linux-x64-musl 472ms (cache revalidated)
+76 silly packumentCache full:https://registry.npmjs.org/@next%2fswc-linux-x64-musl set size:4971192 disposed:false
+77 http fetch GET 200 https://registry.npmjs.org/@next%2fswc-linux-arm64-gnu 578ms (cache revalidated)
+78 silly packumentCache full:https://registry.npmjs.org/@next%2fswc-linux-arm64-gnu set size:5017804 disposed:false
+79 http fetch GET 200 https://registry.npmjs.org/@next%2fswc-win32-x64-msvc 606ms (cache revalidated)
+80 silly packumentCache full:https://registry.npmjs.org/@next%2fswc-win32-x64-msvc set size:5187416 disposed:false
+81 http fetch GET 200 https://registry.npmjs.org/@next%2fswc-win32-ia32-msvc 446ms (cache revalidated)
+82 silly packumentCache full:https://registry.npmjs.org/@next%2fswc-win32-ia32-msvc set size:3201597 disposed:false
+83 http fetch GET 200 https://registry.npmjs.org/@next%2fswc-linux-arm64-musl 322ms (cache revalidated)
+84 silly packumentCache full:https://registry.npmjs.org/@next%2fswc-linux-arm64-musl set size:5035324 disposed:false
+85 http fetch GET 200 https://registry.npmjs.org/@next%2fswc-win32-arm64-msvc 321ms (cache revalidated)
+86 silly packumentCache full:https://registry.npmjs.org/@next%2fswc-win32-arm64-msvc set size:5000146 disposed:false
+87 silly placeDep ROOT @next/env@14.2.35 OK for: next@14.2.35 want: 14.2.35
+88 silly placeDep ROOT @next/swc-darwin-arm64@14.2.33 OK for: next@14.2.35 want: 14.2.33
+89 silly placeDep ROOT @next/swc-darwin-x64@14.2.33 OK for: next@14.2.35 want: 14.2.33
+90 silly placeDep ROOT @next/swc-linux-arm64-gnu@14.2.33 OK for: next@14.2.35 want: 14.2.33
+91 silly placeDep ROOT @next/swc-linux-arm64-musl@14.2.33 OK for: next@14.2.35 want: 14.2.33
+92 silly placeDep ROOT @next/swc-linux-x64-gnu@14.2.33 OK for: next@14.2.35 want: 14.2.33
+93 silly placeDep ROOT @next/swc-linux-x64-musl@14.2.33 OK for: next@14.2.35 want: 14.2.33
+94 silly placeDep ROOT @next/swc-win32-arm64-msvc@14.2.33 OK for: next@14.2.35 want: 14.2.33
+95 silly placeDep ROOT @next/swc-win32-ia32-msvc@14.2.33 OK for: next@14.2.35 want: 14.2.33
+96 silly placeDep ROOT @next/swc-win32-x64-msvc@14.2.33 OK for: next@14.2.35 want: 14.2.33
+97 silly reify mark retired [ '/mnt/e/jenkins-basic/node_modules/@next/env' ]
+98 silly reify mark retired [ '/mnt/e/jenkins-basic/node_modules/@next/swc-linux-x64-gnu' ]
+99 silly reify mark retired [ '/mnt/e/jenkins-basic/node_modules/@next/swc-linux-x64-musl' ]
+100 silly reify mark retired [ '/mnt/e/jenkins-basic/node_modules/@next/swc-win32-x64-msvc' ]
+101 silly reify mark retired [
+101 silly reify   '/mnt/e/jenkins-basic/node_modules/next',
+101 silly reify   '/mnt/e/jenkins-basic/node_modules/.bin/next'
+101 silly reify ]
+102 silly reify moves {
+102 silly reify   '/mnt/e/jenkins-basic/node_modules/@next/env': '/mnt/e/jenkins-basic/node_modules/@next/.env-aRT8j14D',
+102 silly reify   '/mnt/e/jenkins-basic/node_modules/@next/swc-linux-x64-gnu': '/mnt/e/jenkins-basic/node_modules/@next/.swc-linux-x64-gnu-pQv84DQ1',
+102 silly reify   '/mnt/e/jenkins-basic/node_modules/@next/swc-linux-x64-musl': '/mnt/e/jenkins-basic/node_modules/@next/.swc-linux-x64-musl-KlG3ALPs',
+102 silly reify   '/mnt/e/jenkins-basic/node_modules/@next/swc-win32-x64-msvc': '/mnt/e/jenkins-basic/node_modules/@next/.swc-win32-x64-msvc-aVJ71b51',
+102 silly reify   '/mnt/e/jenkins-basic/node_modules/next': '/mnt/e/jenkins-basic/node_modules/.next-ZKBHoaqG',
+102 silly reify   '/mnt/e/jenkins-basic/node_modules/.bin/next': '/mnt/e/jenkins-basic/node_modules/.bin/.next-vJFbvHl5'
+102 silly reify }
+103 silly audit bulk request {
+103 silly audit   '@swc/counter': [ '0.1.3' ],
+103 silly audit   '@swc/helpers': [ '0.5.5' ],
+103 silly audit   '@types/node': [ '20.14.10' ],
+103 silly audit   '@types/prop-types': [ '15.7.15' ],
+103 silly audit   '@types/react': [ '18.3.3' ],
+103 silly audit   '@types/react-dom': [ '18.3.0' ],
+103 silly audit   busboy: [ '1.6.0' ],
+103 silly audit   'caniuse-lite': [ '1.0.30001787' ],
+103 silly audit   'client-only': [ '0.0.1' ],
+103 silly audit   csstype: [ '3.2.3' ],
+103 silly audit   'graceful-fs': [ '4.2.11' ],
+103 silly audit   'js-tokens': [ '4.0.0' ],
+103 silly audit   'loose-envify': [ '1.4.0' ],
+103 silly audit   nanoid: [ '3.3.11' ],
+103 silly audit   picocolors: [ '1.1.1' ],
+103 silly audit   postcss: [ '8.4.31' ],
+103 silly audit   react: [ '18.2.0' ],
+103 silly audit   'react-dom': [ '18.2.0' ],
+103 silly audit   scheduler: [ '0.23.2' ],
+103 silly audit   'source-map-js': [ '1.2.1' ],
+103 silly audit   streamsearch: [ '1.1.0' ],
+103 silly audit   'styled-jsx': [ '5.1.1' ],
+103 silly audit   tslib: [ '2.8.1' ],
+103 silly audit   typescript: [ '5.5.4' ],
+103 silly audit   'undici-types': [ '5.26.5' ],
+103 silly audit   next: [ '14.2.35' ],
+103 silly audit   '@next/env': [ '14.2.35' ],
+103 silly audit   '@next/swc-darwin-arm64': [ '14.2.33' ],
+103 silly audit   '@next/swc-darwin-x64': [ '14.2.33' ],
+103 silly audit   '@next/swc-linux-arm64-gnu': [ '14.2.33' ],
+103 silly audit   '@next/swc-linux-arm64-musl': [ '14.2.33' ],
+103 silly audit   '@next/swc-linux-x64-gnu': [ '14.2.33' ],
+103 silly audit   '@next/swc-linux-x64-musl': [ '14.2.33' ],
+103 silly audit   '@next/swc-win32-arm64-msvc': [ '14.2.33' ],
+103 silly audit   '@next/swc-win32-ia32-msvc': [ '14.2.33' ],
+103 silly audit   '@next/swc-win32-x64-msvc': [ '14.2.33' ]
+103 silly audit }
+104 verbose reify failed optional dependency /mnt/e/jenkins-basic/node_modules/@next/swc-win32-ia32-msvc
+105 silly reify mark deleted [ '/mnt/e/jenkins-basic/node_modules/@next/swc-win32-ia32-msvc' ]
+106 verbose reify failed optional dependency /mnt/e/jenkins-basic/node_modules/@next/swc-win32-arm64-msvc
+107 silly reify mark deleted [ '/mnt/e/jenkins-basic/node_modules/@next/swc-win32-arm64-msvc' ]
+108 verbose reify failed optional dependency /mnt/e/jenkins-basic/node_modules/@next/swc-linux-arm64-musl
+109 silly reify mark deleted [ '/mnt/e/jenkins-basic/node_modules/@next/swc-linux-arm64-musl' ]
+110 verbose reify failed optional dependency /mnt/e/jenkins-basic/node_modules/@next/swc-linux-arm64-gnu
+111 silly reify mark deleted [ '/mnt/e/jenkins-basic/node_modules/@next/swc-linux-arm64-gnu' ]
+112 verbose reify failed optional dependency /mnt/e/jenkins-basic/node_modules/@next/swc-darwin-x64
+113 silly reify mark deleted [ '/mnt/e/jenkins-basic/node_modules/@next/swc-darwin-x64' ]
+114 verbose reify failed optional dependency /mnt/e/jenkins-basic/node_modules/@next/swc-darwin-arm64
+115 silly reify mark deleted [ '/mnt/e/jenkins-basic/node_modules/@next/swc-darwin-arm64' ]
+116 verbose reify failed optional dependency /mnt/e/jenkins-basic/node_modules/@next/swc-win32-x64-msvc
+117 silly reify mark deleted [ '/mnt/e/jenkins-basic/node_modules/@next/swc-win32-x64-msvc' ]
+118 verbose reify failed optional dependency /mnt/e/jenkins-basic/node_modules/@next/swc-linux-x64-musl
+119 silly reify mark deleted [ '/mnt/e/jenkins-basic/node_modules/@next/swc-linux-x64-musl' ]
+120 silly tarball no local data for next@https://registry.npmjs.org/next/-/next-14.2.35.tgz. Extracting by manifest.
+121 silly tarball no local data for @next/env@https://registry.npmjs.org/@next/env/-/env-14.2.35.tgz. Extracting by manifest.
+122 silly tarball no local data for @next/swc-linux-x64-gnu@https://registry.npmjs.org/@next/swc-linux-x64-gnu/-/swc-linux-x64-gnu-14.2.33.tgz. Extracting by manifest.
+123 http fetch POST 200 https://registry.npmjs.org/-/npm/v1/security/advisories/bulk 349ms
+124 silly audit report {
+124 silly audit report   next: [
+124 silly audit report     {
+124 silly audit report       id: 1112593,
+124 silly audit report       url: 'https://github.com/advisories/GHSA-9g9p-9gw9-jx7f',
+124 silly audit report       title: 'Next.js self-hosted applications vulnerable to DoS via Image Optimizer remotePatterns configuration',
+124 silly audit report       severity: 'moderate',
+124 silly audit report       vulnerable_versions: '>=10.0.0 <15.5.10',
+124 silly audit report       cwe: [Array],
+124 silly audit report       cvss: [Object]
+124 silly audit report     },
+124 silly audit report     {
+124 silly audit report       id: 1112653,
+124 silly audit report       url: 'https://github.com/advisories/GHSA-h25m-26qc-wcjf',
+124 silly audit report       title: 'Next.js HTTP request deserialization can lead to DoS when using insecure React Server Components',
+124 silly audit report       severity: 'high',
+124 silly audit report       vulnerable_versions: '>=13.0.0 <15.0.8',
+124 silly audit report       cwe: [Array],
+124 silly audit report       cvss: [Object]
+124 silly audit report     },
+124 silly audit report     {
+124 silly audit report       id: 1114897,
+124 silly audit report       url: 'https://github.com/advisories/GHSA-ggv3-7p47-pfv8',
+124 silly audit report       title: 'Next.js: HTTP request smuggling in rewrites',
+124 silly audit report       severity: 'moderate',
+124 silly audit report       vulnerable_versions: '>=9.5.0 <15.5.13',
+124 silly audit report       cwe: [Array],
+124 silly audit report       cvss: [Object]
+124 silly audit report     },
+124 silly audit report     {
+124 silly audit report       id: 1114940,
+124 silly audit report       url: 'https://github.com/advisories/GHSA-3x4c-7xq6-9pq8',
+124 silly audit report       title: 'Next.js: Unbounded next/image disk cache growth can exhaust storage',
+124 silly audit report       severity: 'moderate',
+124 silly audit report       vulnerable_versions: '>=10.0.0 <15.5.14',
+124 silly audit report       cwe: [Array],
+124 silly audit report       cvss: [Object]
+124 silly audit report     }
+124 silly audit report   ]
+124 silly audit report }
+125 silly packumentCache corgi:https://registry.npmjs.org/next cache-miss
+126 http fetch GET 200 https://registry.npmjs.org/@next/env/-/env-14.2.35.tgz 398ms (cache miss)
+127 http fetch GET 200 https://registry.npmjs.org/next 391ms (cache hit)
+128 silly packumentCache corgi:https://registry.npmjs.org/next set size:24633885 disposed:false
+129 http fetch GET 200 https://registry.npmjs.org/@next/swc-linux-x64-gnu/-/swc-linux-x64-gnu-14.2.33.tgz 8798ms (cache miss)
+130 http fetch GET 200 https://registry.npmjs.org/next/-/next-14.2.35.tgz 37336ms (cache miss)
+131 silly ADD
+132 silly ADD
+133 silly ADD
+134 silly ADD
+135 silly ADD
+136 silly ADD
+137 silly CHANGE node_modules/next
+138 silly CHANGE node_modules/@next/swc-win32-x64-msvc
+139 silly CHANGE node_modules/@next/swc-linux-x64-musl
+140 silly CHANGE node_modules/@next/swc-linux-x64-gnu
+141 silly CHANGE node_modules/@next/env
+142 verbose cwd /mnt/e/jenkins-basic
+143 verbose os Linux 6.6.87.2-microsoft-standard-WSL2
+144 verbose node v20.20.2
+145 verbose npm  v10.8.2
+146 verbose exit 1
+147 verbose code 1
