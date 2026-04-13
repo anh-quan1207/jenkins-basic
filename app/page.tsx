@@ -58,7 +58,7 @@ export default function Home() {
     <main className="page-shell">
       <section className="hero-card">
         <p className="eyebrow">Next.js demo app</p>
-        <h1>Team Task Board</h1>
+        <h1>Task List</h1>
         <p className="hero-copy">
           A simple to-do list for Jenkins demo builds. Make a small change here,
           rebuild, and the updated page is visible immediately.
